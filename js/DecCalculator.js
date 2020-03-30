@@ -12,7 +12,7 @@ class DecCalculator extends Calculator{
         activeElement.attr('contentEditable', 'true');
 
         activeElement.focus(() =>{
-            $(`<p class = "tooltip">Aby dodać, kliknij!</p>`).appendTo(".operator-bar-tooltip").fadeOut(1000);
+            $(`<p class = "tooltip">To add, click!</p>`).appendTo(".operator-bar-tooltip").fadeOut(1000);
           });
     }
 
